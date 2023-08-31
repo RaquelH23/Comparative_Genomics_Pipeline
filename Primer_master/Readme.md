@@ -5,10 +5,11 @@ Fasta2primer3 is a python package for designing and developing primers. It was u
 After analyzing the genes of interest from the combined excel file outputs from roary, create a list of the genes of interest from one of the genomes and save as Gene_List.
 Extract the fasta file for the selected genes in the Gene_List and save as Target_List.fasta
 
-``
+
 `ml seqtk`
+
 `seqtk subseq /FILE_PATH/prokka_results_GeneName.ffn Gene_List > Target_List.fasta`
-``
+
 Provide the file path leading to the .ffn file for the selected genome. The .ffn file is found from step 3 - prokka output
 
 Here you can BLASTn the selected genes OR proceed to primer design then BLASTn the primers.
