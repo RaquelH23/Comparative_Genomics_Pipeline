@@ -16,6 +16,7 @@ Here you can BLASTn the selected genes OR proceed to primer design then BLASTn t
 
 ### Changing primer design parameters
 Change default settings to reflect parameters for RPA or PCR design. RPA primer parameters used for the Xanthomonas comparative genomics study were: min size -30, max size -35, opt size -32, product size range -100 to 200bp, min TM -10, Max TM -100, opt TM -60 (TM is not a factor for RPA primers therefore this wide range in the melting temperature is required in order for the software to produce primers). The file `Pipeline_primer_prig.xlsx' contains the RPA primers designed and produced from this study using `fasta2primer3.
+
 ```
 ml python/2.7.18
 ml primer3
