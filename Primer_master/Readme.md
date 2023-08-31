@@ -6,8 +6,8 @@ After analyzing the genes of interest from the combined excel file outputs from 
 Extract the fasta file for the selected genes in the Gene_List and save as Target_List.fasta
 
 ``
-ml seqtk
-seqtk subseq /FILE_PATH/prokka_results_GeneName.ffn Gene_List > Target_List.fasta
+`ml seqtk`
+`seqtk subseq /FILE_PATH/prokka_results_GeneName.ffn Gene_List > Target_List.fasta`
 ``
 Provide the file path leading to the .ffn file for the selected genome. The .ffn file is found from step 3 - prokka output
 
