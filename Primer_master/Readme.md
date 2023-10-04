@@ -1,5 +1,5 @@
 # Fasta2primer3
-Fasta2primer3 is a python package for designing and developing primers. It was used at the end of the comparative genomics pipeline for developing RPA universal primers to detect all strains causing citrus canker disease. The input file for `fasta2primer3` is the file path of a `.fasta` file.
+Fasta2primer3 is a python package for designing and developing primers. It was used at the end of the comparative genomics pipeline for developing RPA universal primers to detect all strains of the pathogens causing citrus canker disease. The input file for `fasta2primer3` is the file path of a `.fasta` file.
 
 ### Gene file preparation
 After analyzing the genes of interest from the combined excel file outputs from roary, create a list of the genes of interest from one of the genomes and save as Gene_List.
