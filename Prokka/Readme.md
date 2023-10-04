@@ -1,5 +1,5 @@
 # Prokka
-Prokka is a Python-based software that is used for annotating whole genomes of bacteria, viruses, or archaea. In this pipeline, it is used for annotating 43 Xanthomonas bacterial genomes.
+Prokka is a Python-based software that rapidly annotate genes and identify coding sequences in prokaryotic genomes. It was used here for annotating 43 Xanthomonas bacterial genomes. 
 
 Create a list of the genomes fasta file and save it as FILE_NAME
 
